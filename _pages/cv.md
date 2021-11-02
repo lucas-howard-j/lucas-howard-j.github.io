@@ -8,33 +8,25 @@ redirect_from:
 ---
 
 {% include base_path %}
+Click [here](/files/cv.pdf) for a full version of my CV.
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.A. Physics, 2013. Reed College
+* M.S Civil and Environmental Engineering, 2016. University of Vermont.
+* Ph.D Atmopsheric and Oceanic Science, 2026 (expected). University of Colorado, Boulder.
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Graduate Research Assistant, 2021-present. University of Colorado, Boulder.
+* Environmental Engineer, 2016-2021. Hydrogeologic, Inc.
+* Graduate Research Assistant, 2015-2016. University of Vermont.
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Python (Numpy, Scipy, Keras, TensorFlow)
+* GIS (ArcMap, QGIS)
 
 Publications
 ======
@@ -56,4 +48,5 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Student Complaints Committee (2021/2022)
+* Curriculum Committee (2021/2022)
