@@ -6,7 +6,7 @@ permalink: /publication/2016-08-30-paper-title-number-2
 excerpt:
 date: 2016-08-30
 venue: Environmental Systems Research
-paperurl: 10.1186/s40068-016-0071-4.
-citation:
+paperurl:
+citation: 10.1186/s40068-016-0071-4
 
 ---
