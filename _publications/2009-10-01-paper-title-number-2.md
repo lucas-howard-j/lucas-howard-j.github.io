@@ -1,0 +1,12 @@
+---
+title: "Heuristic assessment of bridge scour sensitivity using differential evolution: case study for linking floodplain encroachment and bridge
+scour"
+collection: publications
+permalink: /publication/2020-03-10-paper-title-number-2
+excerpt:
+date: 2020-03-10
+venue: Environmental Systems Research
+paperurl:10.1186/s40068-016-0071-4.
+citation:
+
+---
