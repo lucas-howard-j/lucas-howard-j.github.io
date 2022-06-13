@@ -4,3 +4,7 @@ _site/
 files/.DS_Store
 _publications/.DS_Store
 .DS_Store
+.idea/inspectionProfiles/profiles_settings.xml
+.DS_Store
+*.iml
+*.xml
