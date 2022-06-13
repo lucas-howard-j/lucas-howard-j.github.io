@@ -1,3 +1,3 @@
 title	type	url_slug	venue	date	location	talk_url	description
-Uncertainty Quantification and Calibration of a Large Subsurface Flow and Transport Model Using the Ensemble Kalman Filter	Conference Presentation	talk-1	Waste Management Symposium	3/13/20	"Phoenix, AZ"		
-Augmenting the EnKF with a Shallow Convolutional Neural Network	Poster	poster-1	International Symposium on Data Assimilation	6/9/22	"Fort Collins, CO"		
+Uncertainty Quantification and Calibration of a Large Subsurface Flow and Transport Model Using the Ensemble Kalman Filter	Conference Presentation	talk-1	Waste Management Symposium	2020-03-13	"Phoenix, AZ"
+Augmenting the EnKF with a Shallow Convolutional Neural Network	Poster	poster-1	International Symposium on Data Assimilation	2022-06-09	"Fort Collins, CO"
