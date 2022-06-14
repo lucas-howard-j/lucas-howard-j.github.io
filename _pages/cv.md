@@ -49,4 +49,3 @@ Teaching
 Service and leadership
 ======
 * Student Complaints Committee (2021/2022)
-* Curriculum Committee (2021/2022)
