@@ -30,22 +30,27 @@ Skills
 
 Publications
 ======
-  <ul>{% for post in site.publications %}
+  <ul>{% for post in site.publications reversed%}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
 Talks
 ======
-  <ul>{% for post in site.talks %}
+  <ul>{% for post in site.talks reversed%}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
   
 Teaching
 ======
-  <ul>{% for post in site.teaching %}
+  <ul>{% for post in site.teaching reversed%}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
 Service and leadership
 ======
-* Student Complaints Committee (2021/2022)
+* Community Committee, 2024/2025
+* REU Graduate Student Mentor, 2024
+* Space Committee, Graduate Student Lead, 2023/2024
+* Curiculum Committee, 2022/2023
+* Student Concerns Committee, Graduate Student Lead (2022/2023)
+* Student Concerns Committee (2021/2022)
