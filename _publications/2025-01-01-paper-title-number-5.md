@@ -1,17 +1,18 @@
 ---
-title: "Probabilistic Emulation of the Community Radiative Transfer Model Using Machine Learning"
+title: "Probabilistic emulation of the community radiative transfer model using machine learning"
 collection: publications
 permalink: /publication/2025-01-01-paper-title-number-5
 excerpt:
 date: 2025-01-01
 authors: 
-  - Lucas J. Howard
-  - A. C. Subramanian
-  - G. Thompson
-  - B. Johnson
-  - T. Auligne
-venue: "Arxiv"
+  - Lucas Howard
+  - Aneesh C. Subramanian
+  - Gregory Thompson
+  - Benjamin Johnson
+  - Thomas Auligne
+venue: "Artificial Intelligence for the Earth Systems"
 doi: 
 paperurl: https://doi.org/10.48550/arXiv.2504.16192
 citation:
+inreview: True
 ---
