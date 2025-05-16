@@ -1,0 +1,24 @@
+---
+permalink: /projects/
+title: "Projects"
+---
+
+## ML-Based Radiative Transfer Emulator
+Currently, large fractions of satellite observations are not assimilated into weather forecast models. The speed of the forward (or observation) operator is one bottleneck preventing the utilization of more of these data. The Community Radiative Transfer Model (CRTM) is a community model developed and maintained by the Joint Center for Satellite Data Assimilation (JCSDA) and is commonly used as a radiance observation operator for a number of satellite platforms. I have been working with JCSDA to develop a machine learning (ML) emulator of CRTM which will be faster, allowing more observations to be assimilated with the same computational effort.
+
+Critically, our emulator is probabilistic and predicts its own error. In future development, we plan to include a threshold that will allow computations to revert to CRTM for conditions in which the ML model has low confidence in its predictions.
+
+The first paper from this project is in review at *Artificial Intelligence for the Earth Systems* and is available as a preprint [here](https://arxiv.org/abs/2504.16192). We are currently working to integrate the trained ML emulator into the Unified Forward Operator (UFO), a component of JCSDA's Joint Effort for Data Assimilation Integration (JEDI) framework. This will allow us to perform experiments using the ML emulator within a realistic operational setting to determine if forecast quality can be improved using our approach.
+
+## Skillful Subseasonal to Seasonal Indian Ocean Marine Heat Wave Forecasts Using Deep Learning
+A marine heat wave (MHW) is a period of anomalously warm ocean temperatures. These events have significant effects on marine ecosystems, fisheries, and coastal communities. Given sufficient warning, mitigating measures can be taken by resource managers and local governments. Development of forecasts has tended to focus on short-term daily forecasts out to ~2 weeks, or seasonal monthly forecasts out to ~12 months. Subseasonal to seasonal (S2S) forecasts of MHW with weekly resolution has been comparatively less of a focus for the community.
+
+Given the accuracy of AI weather forecast models, and inspired by [this](https://www.science.org/doi/full/10.1126/sciadv.ads5185) work, I was curious if AI/ML forecast methods could be used to predict sea surface temperatures and/or MHWs. The top line, as evidenced by the figure below, is: yes. Our trained U-NET performs competitively with the European Center for Medium Range Weather Forecasting (ECMWF) S2S model across a variety of metrics. This work has been submitted to the journal EGU Ocean Sciences for publication and a preprint will be available soon.
+![](/files/Figure3.png){: style="width: 55%;"}
+
+## Emulating the Ensemble Kalman Filter with a Convolutional Neural Network
+If we have a measurement of temperature in the atmosphere at a particular location and walk some distance away, that same measurement tells us something about the temperature at our new location. In the context of weather forecast models and data assimilation, the problem of generating new initial conditions can be summarized as: how quickly does the original measurement stop representing the temperature as we walk away from it?
+
+Using jargon, the question is to what degree is the system autocorrelated at the location of the measurement. Different DA methods have different ways of estimating this. From the world of ML, convolutional neural networks (CNN) are really good at processing spatial data and identifying spatial features such as edges. This is at least conceptually analogous to the problem of identifying spatial autocorrelation. My question was: can a CNN successfully capture this structure well enough to assimilate observations?
+
+We performed our experiments using a 1-D test model (Lorenz 96) as a proof of concept. Training the CNN to emulate a traditional DA method (the EnKF), we showed that using the trained CNN on unthinned observations results in better state estimates and forecasts than using EnKF on thinned observations. This was the first project of my PhD, and the results are published in the *Journal of Advances in Modeling Earth Systems* [here](https://doi.org/10.1029/2023MS003774).
