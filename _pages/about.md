@@ -13,6 +13,6 @@ I am currently a PhD candidate at CU Boulder in Atmospheric and Oceanic Science,
 Since 2023 I have been collaborating with the Joint Center for Sattelite Data Assimilation on incorporating ML methods into observation operators for assimilation of sattelite data.
 
 # Research Interests
-* ML applications in Data Assimilation
+* ML applications in data assimilation
 * Predictability and uncertainty quantification
 * Bayesian statistics
