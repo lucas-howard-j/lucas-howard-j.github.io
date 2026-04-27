@@ -8,11 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a PhD candidate at CU Boulder in Atmospheric and Oceanic Science, working in the [Climate Processes and Predictability](https://sites.google.com/site/aneeshcs/Home?authuser=0) research group. My background includes an undergraduate degree in Physics, a Masters in Civil and Environmental Engineering, and five years in environmental consulting before making my way back to research in the Fall of 2021. I am interested in the intersection of process-based models and observations, and am currently working on ways of using machine learning to improve data assimilation methods.
-
-Since 2023 I have been collaborating with the Joint Center for Sattelite Data Assimilation on incorporating ML methods into observation operators for assimilation of sattelite data.
+I am a Postdoctoral Associate in [Elizabeth Barnes' group](https://sites.google.com/view/barnesgroup-csu) at Boston University. My background includes an undergraduate degree in Physics, a Masters in Civil and Environmental Engineering, and five years in environmental consulting before returning to research in 2021. I completed my PhD at CU Boulder in Atmospheric and Oceanic Science, where I worked on machine learning methods for data assimilation and probabilistic emulation of radiative transfer.
 
 # Research Interests
 * ML applications in data assimilation
 * Predictability and uncertainty quantification
 * Bayesian statistics
+* Uncertainty-aware machine learning
+* Multivariate structure of probabilistic AI forecasts
