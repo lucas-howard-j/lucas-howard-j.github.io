@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Lucas Howard"
 title_separator          : "-"
 name                     : &name "Lucas Howard"
-description              : &description "personal description"
+description              : &description "Postdoc at BU working on ML for earth system prediction"
 url                      : https://lucasjhoward.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "lucas-howard-j/lucas-howard-j.github.io"
@@ -87,7 +87,7 @@ author:
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=eI8QA3wAAAAJ&hl=en"
-  email            : "Lucas.Howard@colorado.edu"
+  email            : "ljhoward@bu.edu"
   researchgate     :
   uri              :
   bitbucket        :

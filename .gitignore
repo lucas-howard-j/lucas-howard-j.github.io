@@ -8,3 +8,4 @@ _publications/.DS_Store
 .DS_Store
 *.iml
 *.xml
+Gemfile.lock
