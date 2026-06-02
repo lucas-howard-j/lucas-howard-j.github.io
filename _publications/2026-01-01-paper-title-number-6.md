@@ -7,7 +7,7 @@ date: 2026-01-01
 authors: 
   - Lucas Howard
   - Aneesh C. Subramanian
-  - Jaya Ram Nadimpalli
+  - Jithendra Nadimpalli
   - Donata Giglio
   - Ibrahim Hoteit
 venue: "Environmental Data Science"
