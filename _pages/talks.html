@@ -11,6 +11,16 @@ author_profile: true
 
 {% endif %}
 
+<h2 style="font-size: 1.5em; border-bottom: 2px solid #ccc; padding-bottom: 4px; margin-top: 2em;">Invited Talks and Workshops</h2>
 {% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
+  {% if post.category == "invited" %}
+    {% include archive-single-talk.html %}
+  {% endif %}
+{% endfor %}
+
+<h2 style="font-size: 1.5em; border-bottom: 2px solid #ccc; padding-bottom: 4px; margin-top: 2em;">Other Presentations and Posters</h2>
+{% for post in site.talks reversed %}
+  {% unless post.category == "invited" %}
+    {% include archive-single-talk.html %}
+  {% endunless %}
 {% endfor %}
