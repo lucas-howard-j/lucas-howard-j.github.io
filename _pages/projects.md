@@ -10,7 +10,7 @@ Ensembles are generally assumed to be sampling from some true distribution of po
 
 I try to get at this question about the structure of AI forecasts in my first project working in the Barnes lab. One figure from a recently submitted paper below captures the gist of our results. The Lorenz-96 system is a simple low dimensional analog of the atmosphere for which exact solutions can be generated. We train two different AI models to forecast it at a lead time of 5 days: a diffusion model, which is inherently probabilistic and generates ensemble forecasts conditioned on an initial state, and a deterministic emulator, which forecasts a single predicted state based on the current state. Ensembles are produced by creating a set of slightly perturbed initial conditions and forecasting the future from each one. A "perfect model" dynamical model which exactly simulates the true physics is used as a baseline, generating ensembles from perturbed initial conditions.
 
-![](/files/Figure4.png){: style="width: 85%;"}
+![](/files/figure4.png){: style="width: 85%;"}
 
 The blue bars in the figure show how well the forecast captures pointwise behavior, while the orange bars show how well it captures spatial relationships representing the higher dimensional behavior of the system and underlying uncertainty. For all of the AI forecasts, there is a persistent gap which is not replicated for the dynamical model. This is a really interesting result that has implications for how these models get integrated into weather forecasting systems and how we interpret uncertainty estimates from them, particularly uncertainty that implicates multivariate relationships such as compound events. Further results and explanation in a preprint [here](https://arxiv.org/abs/2608.08954)
 
